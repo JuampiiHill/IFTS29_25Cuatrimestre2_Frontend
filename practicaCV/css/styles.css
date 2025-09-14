@@ -1,0 +1,181 @@
+ /* ==============
+            Estilos generales
+        ================= */
+
+        :root {
+            --color-titulo: #242424;
+            --color-subtitulo: #848484;
+            --color-encabezados: #142d54;
+        }
+
+        /* main, aside, div, img, h2, ul, li, a, section, h1, h3, p, section {
+            border: 1px solid;
+        } */
+
+        body{
+            font-family: monospace;
+        }
+
+        main {
+            margin: 0 auto;
+            display: flex;
+            width: 794px;
+            height: 1123px;
+            border: 2px solid;
+        }
+
+        aside {
+            width: 35%;
+            background-color: #d7c6ab;
+        }
+
+        section {
+            width: 65%;
+        }
+
+        aside, section {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        /* ==============
+            Aside
+        ================= */
+        .contacto, .habilidades, .idiomas, .soft-skills {
+            width: 250px;
+            text-align: start;
+            color: #58996a;
+        }
+
+        .h2-aside-contacto, .h2-aside-habilidades, .h2-aside-idiomas, .h2-aside-sskills {
+            border-bottom: 2px solid;
+            margin-bottom: 0px;
+            margin-top: 0px;
+        }
+
+        .h2-aside-contacto {
+            margin-right: 155px;
+        }
+
+        .h2-aside-habilidades {
+            margin-right: 120px;
+        }
+
+        .h2-aside-idiomas {
+            margin-right: 165px;
+        }
+
+        .h2-aside-sskills {
+            margin-right: 120px;
+        }
+
+        .contacto-lista, .idiomas-lista {
+            padding-left: 0px;
+            list-style-type: none;
+        }
+
+        .habilidades-lista, .soft-skills-lista {
+            padding-left: 17px;
+        }
+
+        .fotoCV {
+            margin-top: 30px;
+            width: 70%;
+            height: 200px;
+        }
+
+        img {
+            width: 100%;
+            border-radius: 10%;
+            height: 100%;
+        }
+
+        .hr-final {
+            border-bottom: 1px solid;
+            padding-left: 100%;
+            color: #58996a;
+            margin-top: 0px;
+        }
+
+        /* ==============
+            Section
+        ================= */
+
+        #portada, .resumen, .experiencia, .educacion, .proyectos, .habilidades-tecnicas {
+            width: 90%;
+            margin-bottom: 0px;
+            margin-top: 0px;
+        }
+
+        .nombre-perfil {
+            color: var(--color-titulo);
+            margin-top: 50px;
+        }
+
+        .nombre-subrayado {
+            color: var(--color-titulo);
+            border: 1px solid;
+            margin-left: 130px;
+            margin-right: 130px;
+        }
+
+        .subtitulo {
+            color: var(--color-subtitulo);
+            margin-bottom: 0px;
+        }
+
+        .subtitulo2 {
+            color: var(--color-subtitulo);
+            margin-top: 0px;
+        }
+
+        .h2-encabezado-sobremi, .h2-encabezado-experiencia, .h2-encabezado-educacion, .h2-encabezado-proyectos, .h2-encabezado-hab-tecnicas{
+            color: var(--color-encabezados);
+            margin-bottom: 0px;
+            margin-top: 0px;
+        }
+
+        .h2-encabezado-sobremi {
+            border-bottom: 2px solid;
+            margin-right: 370px;
+        }
+
+        .h2-encabezado-experiencia {
+            border-bottom: 2px solid;
+            margin-right: 333px;
+        }
+
+        .h2-encabezado-educacion {
+            border-bottom: 2px solid;
+            margin-right: 358px;
+        }
+
+        #portada {
+            text-align: center;
+        }
+        .experiencia-titulo, .educacion-titulo {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .h2-encabezado-proyectos {
+            border-bottom: 2px solid;
+            margin-right: 228px;
+        }
+
+        .h2-encabezado-hab-tecnicas {
+            border-bottom: 2px solid;
+            margin-right: 227px;
+        }
+
+        .h4-tareas, .h4-educacion{
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
+
+        .ul-section {
+            margin-top: 0px;
+        }
